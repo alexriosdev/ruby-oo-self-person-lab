@@ -62,7 +62,7 @@ class Person
 	def call_friend(person)
 		self.happiness_adjuster(happiness, 3)
 		person.happiness_adjuster(happiness, 3)
-		return "Hi #{person.name}! It's #{@name}. How are you?"	
+		return "Hi #{person.name}! It's #{self.name}. How are you?"	
 	end
 
 	def start_conversation(person, topic)
